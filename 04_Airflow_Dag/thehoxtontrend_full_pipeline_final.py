@@ -529,7 +529,7 @@ def s3_save_file_func(**kwargs):
 
     log.info('Finished saving the scraped data to s3')
 
-#Saving Dexter file to postgreSQL database
+#Saving file to postgreSQL database
 def save_scraped_data_to_postgres_db(**kwargs):
 
     import pandas as pd
